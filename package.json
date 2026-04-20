@@ -1,0 +1,14 @@
+{
+  "name": "syscall-app",
+  "version": "1.0.0",
+  "description": "User-Friendly System Call Interface for Enhanced Security",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install --legacy-peer-deps",
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm start",
+    "dev": "npm run backend & npm run frontend",
+    "start": "npm run dev"
+  },
+  "author": "Sumit Singh",
+  "license": "MIT"
+}

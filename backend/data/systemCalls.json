@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sc_1",
+    "name": "File Read",
+    "key": "FILE_READ",
+    "description": "Read contents from a virtual file system path",
+    "icon": "file-text",
+    "allowedRoles": ["admin", "user"],
+    "params": [
+      { "name": "path", "type": "text", "label": "File Path", "placeholder": "/var/data/sample.txt", "required": true }
+    ],
+    "color": "blue"
+  },
+  {
+    "id": "sc_2",
+    "name": "File Write",
+    "key": "FILE_WRITE",
+    "description": "Write data to a virtual file system path",
+    "icon": "edit",
+    "allowedRoles": ["admin", "user"],
+    "params": [
+      { "name": "path", "type": "text", "label": "File Path", "placeholder": "/var/data/output.txt", "required": true },
+      { "name": "content", "type": "textarea", "label": "Content", "placeholder": "Enter file content...", "required": true }
+    ],
+    "color": "green"
+  },
+  {
+    "id": "sc_3",
+    "name": "Process Create",
+    "key": "PROCESS_CREATE",
+    "description": "Spawn a new simulated process in the system",
+    "icon": "cpu",
+    "allowedRoles": ["admin", "user"],
+    "params": [
+      { "name": "processName", "type": "text", "label": "Process Name", "placeholder": "my-process", "required": true },
+      { "name": "priority", "type": "select", "label": "Priority", "options": ["low", "normal", "high"], "required": true }
+    ],
+    "color": "purple"
+  },
+  {
+    "id": "sc_4",
+    "name": "Process Kill",
+    "key": "PROCESS_KILL",
+    "description": "Terminate a running process by its PID",
+    "icon": "x-circle",
+    "allowedRoles": ["admin"],
+    "params": [
+      { "name": "pid", "type": "number", "label": "Process ID (PID)", "placeholder": "1234", "required": true }
+    ],
+    "color": "red"
+  },
+  {
+    "id": "sc_5",
+    "name": "Memory Alloc",
+    "key": "MEMORY_ALLOC",
+    "description": "Allocate a block of virtual memory",
+    "icon": "database",
+    "allowedRoles": ["admin", "user"],
+    "params": [
+      { "name": "size", "type": "number", "label": "Size (KB)", "placeholder": "1024", "required": true }
+    ],
+    "color": "yellow"
+  },
+  {
+    "id": "sc_6",
+    "name": "Network Socket",
+    "key": "NETWORK_SOCKET",
+    "description": "Open a virtual network socket connection",
+    "icon": "wifi",
+    "allowedRoles": ["admin"],
+    "params": [
+      { "name": "host", "type": "text", "label": "Host", "placeholder": "192.168.1.1", "required": true },
+      { "name": "port", "type": "number", "label": "Port", "placeholder": "8080", "required": true }
+    ],
+    "color": "cyan"
+  }
+]
