@@ -2,7 +2,7 @@
 
 A full-stack web application that simulates OS-level system calls with a secure, role-based access control system, detailed audit logging, and a modern SaaS-style dashboard UI.
 
-> Built by **Arvika Tech**
+> Built by **Sumit Singh**
 
 ---
 

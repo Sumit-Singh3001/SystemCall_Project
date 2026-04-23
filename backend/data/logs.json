@@ -1,5 +1,278 @@
 [
   {
+    "id": "9631e3ac-83a9-4f94-915a-414e2060d1b9",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "NETWORK_SOCKET",
+    "params": {
+      "host": "10.0.0.2",
+      "port": "5000"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"socketFd\":189,\"host\":\"10.0.0.2\",\"port\":5000,\"protocol\":\"TCP\",\"state\":\"ESTABLISHED\",\"localPort\":40918}",
+    "timestamp": "2026-04-21T15:24:12.081Z"
+  },
+  {
+    "id": "d5b91f8a-0d21-4474-a4c3-9c69f8d11147",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "MEMORY_ALLOC",
+    "params": {
+      "size": "1024"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"address\":\"0x78375099\",\"sizeKB\":1024,\"type\":\"heap\",\"status\":\"ALLOCATED\",\"protections\":\"RW\"}",
+    "timestamp": "2026-04-21T15:23:43.962Z"
+  },
+  {
+    "id": "aadc97c2-7191-472f-83e7-4d56a6ae2a89",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "PROCESS_KILL",
+    "params": {
+      "pid": "47388"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"pid\":47388,\"signal\":\"SIGTERM\",\"status\":\"TERMINATED\",\"exitCode\":0,\"terminatedAt\":\"2026-04-21T15:23:32.673Z\"}",
+    "timestamp": "2026-04-21T15:23:32.674Z"
+  },
+  {
+    "id": "9c182f15-ca35-4444-bcf8-234e31ad2d8c",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "PROCESS_CREATE",
+    "params": {
+      "processName": "one-process",
+      "priority": "high"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"pid\":47388,\"processName\":\"one-process\",\"priority\":\"high\",\"state\":\"RUNNING\",\"memoryUsage\":\"20MB\",\"cpuUsage\":\"1.2%\",\"startedAt\":\"2026-04-21T15:22:54.370Z\"}",
+    "timestamp": "2026-04-21T15:22:54.371Z"
+  },
+  {
+    "id": "5aaaa067-5162-4788-ad58-1f577b4dace5",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "FILE_READ",
+    "params": {
+      "path": "var2/output.txt"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"path\":\"var2/output.txt\",\"content\":\"# Simulated File Content\\nFile: var2/output.txt\\nRead at: 2026-04-21T15:22:14.368Z\\nOwner: admin\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\\nFile ",
+    "timestamp": "2026-04-21T15:22:14.368Z"
+  },
+  {
+    "id": "95cdb684-23b6-4aba-a87f-e6e2af6afa77",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "FILE_WRITE",
+    "params": {
+      "path": "var2/output.txt",
+      "content": "Hello OS"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"path\":\"var2/output.txt\",\"bytesWritten\":8,\"permissions\":\"-rw-r--r--\",\"inode\":249641,\"message\":\"File written successfully\"}",
+    "timestamp": "2026-04-21T15:21:48.898Z"
+  },
+  {
+    "id": "67c07862-0722-433b-a360-97703cd142cc",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "PROCESS_CREATE",
+    "params": {},
+    "status": "FAILED",
+    "error": "Missing param: processName",
+    "result": null,
+    "timestamp": "2026-04-21T15:15:38.224Z"
+  },
+  {
+    "id": "3696e8b9-31bf-420f-b46e-b5cd424be409",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "NETWORK_SOCKET",
+    "params": {
+      "host": "10.0.0.2",
+      "port": "5000"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"socketFd\":202,\"host\":\"10.0.0.2\",\"port\":5000,\"protocol\":\"TCP\",\"state\":\"ESTABLISHED\",\"localPort\":45185}",
+    "timestamp": "2026-04-21T15:06:53.545Z"
+  },
+  {
+    "id": "b800d165-c0fc-4c0b-8343-c3582235cda0",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "MEMORY_ALLOC",
+    "params": {
+      "size": "1024"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"address\":\"0x3EB705F9\",\"sizeKB\":1024,\"type\":\"heap\",\"status\":\"ALLOCATED\",\"protections\":\"RW\"}",
+    "timestamp": "2026-04-21T15:06:24.544Z"
+  },
+  {
+    "id": "483be43c-80b8-477f-ba64-26cea039e6ef",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "PROCESS_KILL",
+    "params": {
+      "pid": "47602"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"pid\":47602,\"signal\":\"SIGTERM\",\"status\":\"TERMINATED\",\"exitCode\":0,\"terminatedAt\":\"2026-04-21T15:06:05.531Z\"}",
+    "timestamp": "2026-04-21T15:06:05.532Z"
+  },
+  {
+    "id": "cc55757f-c586-4430-8a06-cef374c9a89b",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "PROCESS_CREATE",
+    "params": {
+      "processName": "one-process",
+      "priority": "high"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"pid\":47602,\"processName\":\"one-process\",\"priority\":\"high\",\"state\":\"RUNNING\",\"memoryUsage\":\"150MB\",\"cpuUsage\":\"2.7%\",\"startedAt\":\"2026-04-21T15:05:28.866Z\"}",
+    "timestamp": "2026-04-21T15:05:28.866Z"
+  },
+  {
+    "id": "c13b3900-012f-4817-a93f-14b6ab8eccf4",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "FILE_READ",
+    "params": {
+      "path": "var2/output.txt"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"path\":\"var2/output.txt\",\"content\":\"# Simulated File Content\\nFile: var2/output.txt\\nRead at: 2026-04-21T15:05:00.963Z\\nOwner: admin\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\\nFile ",
+    "timestamp": "2026-04-21T15:05:00.963Z"
+  },
+  {
+    "id": "1c99cf24-21ec-4ee3-b8ed-b21b944fcfb1",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "FILE_WRITE",
+    "params": {
+      "path": "var2/output.txt",
+      "content": "Hello OS"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"path\":\"var2/output.txt\",\"bytesWritten\":8,\"permissions\":\"-rw-r--r--\",\"inode\":507716,\"message\":\"File written successfully\"}",
+    "timestamp": "2026-04-21T15:04:27.161Z"
+  },
+  {
+    "id": "08e1557e-ffd3-48da-87bd-51759fef27a8",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "NETWORK_SOCKET",
+    "params": {
+      "host": "10.0.0.2",
+      "port": "5000"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"socketFd\":89,\"host\":\"10.0.0.2\",\"port\":5000,\"protocol\":\"TCP\",\"state\":\"ESTABLISHED\",\"localPort\":54874}",
+    "timestamp": "2026-04-21T14:26:54.539Z"
+  },
+  {
+    "id": "999edafb-6437-4351-ba33-69dc5812e146",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "MEMORY_ALLOC",
+    "params": {
+      "size": "1024"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"address\":\"0x641B3110\",\"sizeKB\":1024,\"type\":\"heap\",\"status\":\"ALLOCATED\",\"protections\":\"RW\"}",
+    "timestamp": "2026-04-21T14:26:31.819Z"
+  },
+  {
+    "id": "12a6dbba-7fb5-4067-b283-21fe60db1864",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "PROCESS_KILL",
+    "params": {
+      "pid": "12998"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"pid\":12998,\"signal\":\"SIGTERM\",\"status\":\"TERMINATED\",\"exitCode\":0,\"terminatedAt\":\"2026-04-21T14:26:22.286Z\"}",
+    "timestamp": "2026-04-21T14:26:22.287Z"
+  },
+  {
+    "id": "9e9ec1f6-a8d9-4ca4-a75f-7cd2683c7ff9",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "PROCESS_CREATE",
+    "params": {
+      "processName": "one-process",
+      "priority": "normal"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"pid\":12998,\"processName\":\"one-process\",\"priority\":\"normal\",\"state\":\"RUNNING\",\"memoryUsage\":\"255MB\",\"cpuUsage\":\"2.9%\",\"startedAt\":\"2026-04-21T14:25:54.259Z\"}",
+    "timestamp": "2026-04-21T14:25:54.260Z"
+  },
+  {
+    "id": "b29faaf3-6254-4ed6-a5b8-c8f9681a469e",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "FILE_READ",
+    "params": {
+      "path": "var2/output.txt"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"path\":\"var2/output.txt\",\"content\":\"# Simulated File Content\\nFile: var2/output.txt\\nRead at: 2026-04-21T14:25:20.210Z\\nOwner: admin\\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\\nFile ",
+    "timestamp": "2026-04-21T14:25:20.210Z"
+  },
+  {
+    "id": "e20b44df-e64f-4e61-bb44-3156ff48e943",
+    "userId": "1",
+    "username": "admin",
+    "role": "admin",
+    "action": "FILE_WRITE",
+    "params": {
+      "path": "var2/output.txt",
+      "content": "Hello OS"
+    },
+    "status": "SUCCESS",
+    "error": null,
+    "result": "{\"path\":\"var2/output.txt\",\"bytesWritten\":8,\"permissions\":\"-rw-r--r--\",\"inode\":413384,\"message\":\"File written successfully\"}",
+    "timestamp": "2026-04-21T14:24:53.703Z"
+  },
+  {
     "id": "a2f14f9e-821c-4ca7-81a5-204c28590296",
     "userId": "1",
     "username": "admin",
