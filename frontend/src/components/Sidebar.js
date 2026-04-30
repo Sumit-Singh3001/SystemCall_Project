@@ -7,7 +7,7 @@ import {
   LogOut, Shield, Sun, Moon, ChevronRight, Zap
 } from 'lucide-react';
 import toast from 'react-hot-toast';
-
+ ${collapsed ? 'justify-center' : ''}
 const NAV_ITEMS = [
   { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/syscalls',  icon: Terminal,        label: 'System Calls' },
@@ -47,6 +47,7 @@ export default function Sidebar({ collapsed, onToggle }) {
           </div>
         )}
       </div>
+
 
       {/* Nav items */}
       <nav className="flex-1 px-2 py-4 space-y-1 overflow-y-auto">
