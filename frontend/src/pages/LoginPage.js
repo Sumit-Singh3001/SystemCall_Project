@@ -149,7 +149,7 @@ export default function LoginPage() {
 
         {/* Footer */}
         <p className="text-center text-slate-600 text-xs mt-6 font-mono">
-          © 2024 Arvika Tech · Secure System Call Interface
+          © 2026 Sumit · Secure System Call Interface
         </p>
       </div>
     </div>
