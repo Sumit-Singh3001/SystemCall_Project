@@ -62,7 +62,7 @@ export default function Sidebar({ collapsed, onToggle }) {
                   ? 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
                   : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
               }
-              ${collapsed ? 'justify-center' : ''}
+             
             `}
             title={collapsed ? label : undefined}
           >
